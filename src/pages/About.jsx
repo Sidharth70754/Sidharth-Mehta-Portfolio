@@ -92,7 +92,7 @@ export default function About() {
     <section
       className="min-h-screen bg-cover bg-center bg-no-repeat text-white py-20 font-sans"
       style={{
-        backgroundImage: `url('/src/assets/space.jpg')`,
+        backgroundImage: `url('/public/static/images/space.jpg')`,
       }}
     >
       <div className="bg-gradient-to-b from-black/70 to-black/90 w-full h-full">

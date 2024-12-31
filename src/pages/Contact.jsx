@@ -7,7 +7,7 @@ export function Contact() {
       id="contact"
       className="relative w-full h-[80vh] bg-cover bg-center bg-no-repeat flex items-center justify-center"
       style={{
-        backgroundImage: `url('/src/assets/footer.png')`,
+        backgroundImage: `url('/public/static/images/footer.png')`,
       }}
     >
       {/* Overlay */}
@@ -20,7 +20,7 @@ export function Contact() {
           {/* Profile Image */}
           <div className="flex justify-center md:justify-start">
             <img
-              src="\src\assets\Sidharth Mehta Photo.png"
+              src="\public\static\images\Sidharth Mehta Photo.png"
               alt="Profile"
               className="w-40 h-40 rounded-full border-4 border-indigo-500 shadow-lg"
             />

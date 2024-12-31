@@ -7,7 +7,7 @@ const projects = [
     title: "Smart - Urban Transit",
     description:
       "Optimizing urban transport with technology for efficiency and reduced congestion",
-    image: "/src/assets/SUT.png",
+    image: "/public/static/images/SUT.png",
     tech: ["Next.js", "Machine Learning", "MongoDB", "Metamask", "UI/UX","TailwindCSS"],
     category: "Web & Machine Learning",
     icon: Palette,
@@ -20,7 +20,7 @@ const projects = [
     title: "Movie - Seat Booking",
     description:
       "Seamless movie ticket booking for easy, quick, and convenient access.",
-    image: "/src/assets/MST.png",
+    image: "/public/static/images/MST.png",
     tech: ["HTML", "TailwindCSS", "JavaScript","React.js"],
     category: "Frontend",
     icon: Code2,
@@ -33,7 +33,7 @@ const projects = [
     title: "2048 - Game",
     description:
       "Classic sliding tile puzzle game combining numbers to reach 2048.",
-    image: "/src/assets/2048.png",
+    image: "/public/static/images/2048.png",
     tech: ["HTML", "TailwindCSS", "JavaScript"],
     category: "Frontend",
     icon: Cpu,
@@ -46,7 +46,7 @@ const projects = [
     title: "Animate - Website",
     description:
       "Dynamic and interactive website showcasing captivating animations and designs.",
-    image: "/src/assets/AW.png",
+    image: "/public/static/images/AW.png",
     tech: ["React.js", "HTML", "javaScript", "TailwindCSS"],
     category: "website",
     icon: Code2,
@@ -59,7 +59,7 @@ const projects = [
     title: "Smart - Calculator",
     description:
       "AI-powered calculator offering smart, fast, and accurate mathematical solutions.",
-    image: "/src/assets/Cacl.png",
+    image: "/public/static/images/Cacl.png",
     tech: ["HTML", "TailwindCSS", "JavaScript"],
     category: "Web Development",
     icon: Palette,
@@ -72,7 +72,7 @@ const projects = [
     title: "Netflix - Clone",
     description:
       "Streaming platform replica with seamless design and real-time functionality.",
-    image: "/src/assets/Netflix.png",
+    image: "/public/static/images/Netflix.png",
     tech: ["HTML", "TailwindCSS", "React.js"],
     category: "Web Development",
     icon: Cpu,
@@ -108,7 +108,7 @@ const Projects = () => {
           loop
           muted
           className="h-full w-full object-cover opacity-30"
-          src="\src\assets\file.mp4"
+          src="\public\static\images\file.mp4"
         ></video>
       </div>
 

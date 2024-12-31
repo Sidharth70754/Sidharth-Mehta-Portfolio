@@ -57,21 +57,21 @@ const AchievementsPage = () => {
     {
       title: "Code For Earth",
       description: "Code For Earth is a sustainability-focused platform leveraging technology to address environmental challenges, promote green solutions, and inspire global collaboration for a more sustainable future.",
-      image: "/src/assets/codeforearth.jpg", // Replace with actual image URL
+      image: "/public/static/images/codeforearth.jpg", // Replace with actual image URL
       count: "2nd",
       color: "bg-blue-500",
     },
     {
       title: "SIH ",
       description: "Smart India Hackathon (SIH) is a nationwide innovation challenge empowering students to solve real-world problems with cutting-edge technology, fostering creativity, and impactful solutions.",
-      image: "/src/assets/sih.jpg", // Replace with actual image URL
+      image: "/public/static/images/sih.jpg", // Replace with actual image URL
       count: "TOP 27",
       color: "bg-green-500",
     },
     {
       title: "Zinnovation ",
       description: "Zinnovation Hackathon is a platform for innovators and developers to collaborate, create groundbreaking solutions, and showcase their skills in solving real-world challenges with cutting-edge technology.",
-      image: "/src/assets/madel.png", // Replace with actual image URL
+      image: "/public/static/images/madel.png", // Replace with actual image URL
       count: "Finalist",
       color: "bg-yellow-500",
     },
