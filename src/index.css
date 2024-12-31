@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: azure;
+  background-color: #111;
+  
+}
+
+@font-face{
+  font-family: anzo1;
+  src: url(./assets/file.woff2);
+}
+@font-face{
+  font-family: anzo2;
+  src: url(./assets/file2.woff2);
+}
+
+@font-face{
+  font-family: anzo3;
+  src: url(./assets/file3.woff2);
+}
+
+@font-face{
+  font-family: anzo4;
+  src: url(./assets/file4.woff2);
+}
+@font-face{
+  font-family: anzo5;
+  src: url(./assets/file5.woff2);
+}
+
+
+@font-face {
+  font-family: alag anzo;
+  src: url(./assets/madefor-text.var.original.woff2);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#page1-in {
+  position: relative;
+  perspective: 10\500px;
+}
+
+#section2 {
+  position: relative;
+  perspective: 3000px;
+}
+
+#tiltDiv {
+  
+  width: fit-content;
+}
+
+.rotateText {
+  transform-origin: 100% 70%;
+}
