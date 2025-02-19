@@ -20,7 +20,7 @@ export function Contact() {
           {/* Profile Image */}
           <div className="flex justify-center md:justify-start">
             <img
-              src="\public\static\images\Sidharth Mehta Photo.png"
+              src="/public/static/images/Sidharth Mehta Photo.png"
               alt="Profile"
               className="w-40 h-40 rounded-full border-4 border-indigo-500 shadow-lg"
             />

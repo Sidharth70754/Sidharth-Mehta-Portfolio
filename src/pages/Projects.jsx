@@ -108,7 +108,7 @@ const Projects = () => {
           loop
           muted
           className="h-full w-full object-cover opacity-30"
-          src="\public\static\images\file.mp4"
+          src="/public/static/images/file.mp4"
         ></video>
       </div>
 

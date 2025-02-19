@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import gsap from "gsap";
 import Page1Bottom from "../components/Page1Bottom"; // Adjust the import path if needed
 
+
 const Pages1 = () => {
   const textRef = useRef(null);
   const [xVal, setXVal] = useState(0);
@@ -33,7 +34,7 @@ const Pages1 = () => {
       {/* Logo Section */}
       <div className="absolute top-12 left-20 z-30">
         <img
-          src="\public\static\images\logo.png" // Replace with your logo path
+          src="/public/static/images/logo.png" // Replace with your logo path
           alt="Logo"
           className="w-19 h-16 object-contain"
         />
@@ -87,7 +88,7 @@ const Pages1 = () => {
         {/* Image Section */}
         <div className="absolute top-1/2 right-12 transform -translate-y-2/4">
           <img
-            src="\public\static\images\Sidharth Mehta Photo.png" // Replace with your image path
+            src="/public/static/images/Sidharth Mehta Photo.png" // Replace with your image path
             alt="Sidharth Mehta"
             className="w-80 h-80 rounded-full shadow-xl object-cover border-4 border-blue-500 transform hover:scale-105 transition-transform duration-500"
           />
